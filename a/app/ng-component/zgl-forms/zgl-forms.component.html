@@ -88,7 +88,7 @@
                     <ng-container  *ngIf="item.dataType !== 'sign'">
                         <div nz-row [nzGutter]="8" *ngFor="let file of fileList; let j = index;">
                             <div nz-col nzSpan="21" class="line-md">
-                                <a (click)="viewImg(file)" target="_blank" *ngIf="file">图片{{j+1}}</a>
+                                <!-- <a (click)="viewImg(file)" target="_blank" *ngIf="file">图片{{j+1}}</a> -->
                                 <span *ngIf="!file">请上传图片或文件</span>
                             </div>
                             <div nz-col [nzSpan]="3" class="opr-icons">
