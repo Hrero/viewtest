@@ -4,7 +4,7 @@ import { isEmpty } from 'zgl-utils-js';
 import { HttpService } from './http.service';
 import { Observable, of } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
-import { PowerService } from '../ng-sevice/power.service'
+import { PowerService } from './power.service'
 
 @Injectable({
     providedIn: 'root'

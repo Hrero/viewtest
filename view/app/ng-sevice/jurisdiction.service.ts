@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpService } from '../ng-sevice/http.service';
+import { HttpService } from './http.service';
 import { PowerService } from './power.service';
 import { NzMessageService } from 'ng-zorro-antd';
 import { BehaviorSubject, Observable, of } from 'rxjs';

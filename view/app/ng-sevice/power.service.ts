@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpService } from '../ng-sevice/http.service';
+import { HttpService } from './http.service';
 
 export interface paramsInterface {
     urlKey: string;
